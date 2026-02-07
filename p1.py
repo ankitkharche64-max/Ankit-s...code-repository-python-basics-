@@ -1,10 +1,10 @@
+# 1. Write a python program to display a user entered name followed by Good  Afternoon using input () function. 
+name = input("Enter your name:")
 
-# Write a program to add two numbers?
-a = 1
-b = 4
-print(a+b)
+print("Good Afternoon "+ name +" ! ")
+print()
 
-c = int(input("no 1:"))
-d = int(input("no 2:"))
-print(c+d)
+print("Good Afternoon",name)
+print()
 
+print(f"Good Afternoon {name} !")

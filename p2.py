@@ -1,7 +1,12 @@
-#Write a pyhton program to find remainder when a number is divided by z.
+# 2. Write a program to fill in a letter template given below with name and date. 
+letter = '''  
+Dear <|Name|>, 
+You are selected! 
+<|Date|> 
+'''
 
-a = int(input("number:"))
-z = int(input("divisor:"))
+print(letter.replace("<|Name|>","Ankit"))
+print(letter.replace("<|Date|> "," 4th Feb, 2025"))
 
-remainder = a%z
-print("the remainder is :",remainder)
+print()
+print(letter.replace("<|Name|>","Ankit").replace("<|Date|> "," 4th Feb, 2025"))

@@ -1,6 +1,4 @@
-# 5. Write a python program to find an average of two numbers entered by the user?
-a = int(input("Enter no 1:"))
-b = int(input("Enter no 2:"))
+# 5. Write a program to format the following letter using escape sequence characters. 
+letter = "Dear Harry,\n\t This python course is nice.\n Thanks!"
+print(letter)
 
-c = (a + b)/2
-print("Average of two number a & b:",c)

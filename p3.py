@@ -1,9 +1,4 @@
-# Check the type of variable assigned input() fuction.
+# 3. Write a program to detect double space in a string.
+a = " Ankit is a  BAD Boy"
 
-a = input(13)
-t=type(a)
-print(t)
-
-c = float(input(12))
-b=type(c)
-print(b)
+print(a.find("  "))
