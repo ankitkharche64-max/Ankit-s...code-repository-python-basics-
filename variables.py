@@ -1,8 +1,9 @@
-# chapter 2
-a = 3
-b = 2
-c ="harry"
-# here double cotes denotes that harry is a string
-print(a*b)
-print(c)
-
+a = 1
+b = 24
+print(a+b)
+print()
+c = 13
+print(a*b*c)
+print()
+name ="Ankit"
+print(name)

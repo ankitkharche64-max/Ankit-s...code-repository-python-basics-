@@ -1,5 +1,7 @@
-#VOICE message with pip instal pyttsx3
-import pyttsx3
-engine = pyttsx3.init()
-engine.say("hello!")
-engine.runAndWait()     
+#Write a pyhton program to find remainder when a number is divided by z.
+
+a = int(input("number:"))
+z = int(input("divisor:"))
+
+remainder = a%z
+print("the remainder is :",remainder)
